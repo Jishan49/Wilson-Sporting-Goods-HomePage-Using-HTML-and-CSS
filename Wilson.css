@@ -1,0 +1,676 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "GT America Trial Cm Bl";
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+.content-center{
+    max-width: 1180px;
+    margin-inline: auto;
+    padding-inline: 20px;
+}
+.top{
+    width: 100%;
+    height: 5%;
+    background-color: black;
+    display:flex;
+    transition: all ease-out 0.2s;
+    align-items: center;
+    justify-content: flex-end;
+}
+.top-left{
+    width: 50%;
+    justify-content: flex-start;
+    color: white;
+    margin-left: 100px;
+    font-size: 18px;
+}
+.top-right{
+    width: 50%;
+    color: white;
+    font-size: 18px;
+    align-items: flex-end;
+    padding-left: 20px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+    margin-right:100px ;
+}
+a{
+    color: white;
+}
+.top-right a:hover{
+    text-decoration: none;
+
+}
+
+.top2{
+    width: 100%;
+    display: flex;
+    border: 1px solid gray;
+}
+
+.top2-left{
+    width: 70%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.top2-right{
+    width: 30%;
+    height: 10%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+    margin-top: 30px;
+    margin-right: 100px;
+
+}
+.top2-left img{
+    height: 100px;
+    width: 100px;
+
+}
+
+.top2-right i{
+    color: black;
+    font-size: 30px;
+}
+.top2-right i:hover{
+    color:#cf102d;
+    cursor: pointer;
+}
+.top2-left h1,img:hover{
+    cursor: pointer;
+}
+.main{
+    background-size: cover;
+    background-position: center;
+    margin-left: 125px;
+    margin-right: 125px;
+}
+.main img{
+    height: 100%;
+    width: 100%;
+}
+
+.main2{
+    height:20%;
+    width: 100%;
+}
+.main2 h1{
+    margin-top: 25px;
+    font-size: 45px;
+    font-weight: 900;
+    word-spacing: 5px;
+}
+.main2 p{
+    font-size: 25px;
+    font-family: sans-serif;
+}
+.main2 h1,p{
+    text-align: center;
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    transition: all ease 0.3s;
+    margin-top: -40px;
+}
+#button1{
+    border: 2px solid black;
+    padding: 15px;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+#button2{
+    border: 2px solid black;
+    padding: 15px;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+#button2:hover{
+    color:white;
+    background-color: black;
+    cursor: pointer;
+}
+#button1:hover{
+    color:white;
+    background-color: black;
+    cursor: pointer;
+}
+.clothes{
+    width: 100%;
+    height: 50%;
+    background-position: center;
+    background-size: cover;
+    margin-left: 170px;
+    margin-right: 125px;
+    margin-top: 25px;
+}
+.clothes img{
+    height:350px;
+    width: 300px;
+}
+
+.clothes-names{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+    margin-left: 50px;
+
+}
+
+.player{
+    margin-top: 25px;
+    margin-left: 90px;
+    margin-right: 90px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    transition: all ease 0.3s;
+
+}
+.player img{
+    height: 100%;
+    width: 100%;
+
+}
+.player h1{
+    position: absolute;
+    top: 15%;
+    left: 2%;
+    color: #edff00;
+    font-size: 40px;
+    line-height: 40px;
+
+}
+.player pre{
+    color: white;
+    position: absolute;
+    top: 30%;
+    left: 2%;
+    font-weight: 400;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: sans-serif;
+}
+
+#button3{
+    position: absolute;
+    border: 2px solid black;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: 500;
+    top: 50%;
+    left: 2%;
+    background-color: white;
+}
+
+#button4{
+    position: absolute;
+    border: 2px solid black;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: 500;
+    top: 50%;
+    left: 16%;
+    background-color: white;
+}
+
+#button3:hover{
+    color:white;
+    background-color: black;
+    cursor: pointer;
+}
+
+#button4:hover{
+    color:white;
+    background-color: black;
+    cursor: pointer;
+}
+
+.ball{
+    margin-top: 25px;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+.ball img{
+    height: 100%;
+    width: 100%;
+}
+
+.para{
+    margin-top: 15px;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+.para h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.para p{
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.but{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    transition: all ease 0.3s;
+    margin-top: 25px;
+    text-align: center;
+}
+#button5{
+    color: white;
+    background-color: black;
+    border: 2px solid black;
+    padding: 13px;
+    font-size: 20px;
+    font-weight: 500;
+    margin-left: 40%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#button6{
+    color: white;
+    background-color: black;
+    border: 2px solid black;
+    padding: 13px;
+    font-size: 20px;
+    font-weight: 500;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#button5:hover{
+    color: black;
+    background-color: white;
+    cursor: pointer;
+
+}
+
+#button6:hover{
+    color: black;
+    background-color: white;
+    cursor: pointer;
+
+}
+
+.balls{
+    margin-top: 30px;
+    margin-left: 90px;
+    margin-right: 90px;
+
+}
+
+.balls img{
+    height:300px;
+    width: 24%;
+    margin-left: 8px;
+
+}
+.balls-names{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    margin-left: 30px;
+
+}
+.big{
+    margin-top: 25px;
+    height: 100%;
+    display: flex;
+
+}
+.big-left{
+    width: 50%;
+    position: relative;
+    transition: ease-out 0.4s;
+    cursor: pointer;
+}
+.big-left h1{
+    position: absolute;
+    top: 5%;
+    left:5%;
+}
+
+.big-left pre{
+    font-family: sans-serif;
+    position: absolute;
+    top: 15%;
+    left:5%;
+    font-size: 17px;
+}
+#button7{
+    position: absolute;
+    border: 2px solid black;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 20px;
+    background-color: white;
+    top: 25%;
+    left: 5%;
+
+}
+.big-right{
+    width: 50%;
+    align-items: flex-end;
+    margin-left: 25px;
+    position: relative;
+}
+.big-left img{
+    width: 100%;
+} 
+.big-right img{
+    width: 100%;
+}
+
+#button7:hover{
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+}
+
+.big-right h1{
+    position: absolute;
+    top: 5%;
+    left:5%;
+
+}
+.big-right pre{
+    position: absolute;
+    top:15% ;
+    left: 5%;
+    font-family: sans-serif;
+    font-size: 17px;
+}
+#button8{
+    position: absolute;
+    border: 2px solid black;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 20px;
+    background-color: white;
+    top: 25%;
+    left: 5%;
+}
+#button8:hover{
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+}
+.shopbysport{
+    margin-top: 25px;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+}
+
+.shopbysport img{
+    height: 250px;
+    width: 320px;
+    margin-bottom: 10px;
+    margin-left: 12px;
+
+}
+.insider{
+    height:100px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    transition: ease-out 0.3s;
+    margin-top: 25px;
+}
+.insider h1{
+    color: white;
+    font-size: 35px;
+    padding-top: 10px;
+
+}
+.insider p{
+    font-family: sans-serif;
+    font-size: 18px;
+    color: white;
+    padding-top: 8px;
+}
+#button9{
+    border: 2px solid #cf102d;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 20px;
+    background-color: #cf102d;
+    color: white;
+}
+#button9:hover{
+    border: 2px solid #cf102d;
+    background-color: white;
+    color: #cf102d;
+    cursor: pointer;
+}
+.footer{
+    width: 100%;
+    background-color: #f5f5f5;
+    display: flex;
+    cursor: pointer;
+}
+.footerleft1{
+    width: 20%;
+    height: 100%;
+    line-height: 35px;
+    padding-top: 30px;
+}
+.footerleft1 p{
+    font-family: sans-serif;
+    font-weight: 400;
+    color: grey;
+}
+.footerleft2{
+    width: 20%;
+    height: 100%;
+    line-height: 35px;
+    padding-top: 30px;
+}
+.footerleft3{
+    width: 20%;
+    height: 100%;
+    line-height: 35px;
+    padding-top: 30px;
+}
+.footerleft2 p{
+    font-family: sans-serif;
+    font-weight: 400;
+    color: grey;
+}
+.footerleft3 p{
+    font-family: sans-serif;
+    font-weight: 400;
+    color: grey;
+}
+.footerleft1 h3{
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: grey;
+}
+.footerleft2 h3{
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: grey;
+}
+.footerleft3 h3{
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 700;
+    color:grey;
+}
+
+.footerright{
+    width: 40%;
+}
+.footerright h3{
+    padding-top: 35px;
+    font-family: sans-serif;
+    color: grey;
+    padding-left: 25px;
+}
+#button10{
+    border-radius: 25px;
+    background-color: white;
+    font-family: sans-serif;
+    font-size: 15px;
+    padding: 15px;
+    border: 1px solid gray;
+}
+#button10:hover{
+    text-decoration: underline;
+}
+#button11{
+    border-radius: 25px;
+    background-color: white;
+    font-family: sans-serif;
+    font-size: 15px;
+    padding: 15px;
+    border: 1px solid gray;
+}
+#button11:hover{
+    text-decoration: underline;
+}
+#button12{
+    border-radius: 25px;
+    background-color: white;
+    font-family: sans-serif;
+    font-size: 15px;
+    padding: 15px;
+    border: 1px solid gray;
+}
+#button12:hover{
+    text-decoration: underline;
+}
+#button13{
+    border-radius: 25px;
+    background-color: white;
+    font-family: sans-serif;
+    font-size: 15px;
+    padding: 15px;
+    border: 1px solid gray;
+}
+#button13:hover{
+    text-decoration: underline;
+}
+
+#button14{
+    border-radius: 25px;
+    background-color: white;
+    font-family: sans-serif;
+    font-size: 15px;
+    padding: 15px;
+    border: 1px solid gray;
+}
+#button14:hover{
+    text-decoration: underline;
+}
+#button15{
+    border-radius: 25px;
+    background-color: white;
+    font-family: sans-serif;
+    font-size: 15px;
+    padding: 15px;
+    border: 1px solid gray;
+}
+#button15:hover{
+    text-decoration: underline;
+}
+
+button{
+    margin: 8px;
+    cursor: pointer;
+}
+.end{
+    width: 100%;
+    display: flex;
+}
+.end-left{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 25px;
+    cursor: pointer;
+    margin-left: 35px;
+}
+.end-left p{
+    font-family: sans-serif;
+    font-size: 15px;
+    color:gray;
+}
+.end-mid{
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.end-right{
+    width: 15%;
+}
+.end-right img{
+    height: 35px;
+    width: 50px;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+#facebook:hover{
+    color: royalblue;
+    cursor: pointer;
+}
+#twitter:hover{
+    color: skyblue;
+    cursor: pointer;
+}
+#insta:hover{
+    color: hotpink;
+    cursor: pointer;
+}
+.finally{
+    width: 100%;
+    height: 40px;
+    
+}
+.finally p{
+    font-size: 18px;
+    color: gray;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 25px;
+
+}
